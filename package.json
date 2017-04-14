@@ -1,0 +1,37 @@
+{
+  "name": "dsm",
+  "version": "0.1.0",
+  "description": "",
+  "bin": {
+    "dsm": "lib/dsm.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dataset-manager/dsm.git"
+  },
+  "keywords": [],
+  "author": "Mathieu Dutour <mathieu@dutour.me> (http://mathieu.dutour.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dataset-manager/dsm/issues"
+  },
+  "homepage": "https://github.com/dataset-manager/dsm#readme",
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "cpr": "^2.0.2",
+    "dat-node": "^2.0.0",
+    "js-yaml": "^3.8.2",
+    "lazy-require": "^2.2.0",
+    "object-assign": "^4.1.1",
+    "request": "^2.81.0",
+    "semver": "^5.3.0",
+    "dsm-client": "^0.2.0"
+  }
+}
